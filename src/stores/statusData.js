@@ -14,6 +14,8 @@ const useStatusDataStore = defineStore("statusData", {
       searchInputValue: "",
       // 盒子大小
       mainBoxBig: false,
+      notes: [], // 便签列表
+      todos: [], // 代办事项列表
     };
   },
   getters: {},
